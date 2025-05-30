@@ -1,0 +1,97 @@
+body,
+html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fef6f0;
+}
+
+h2 {
+    font-family: 'Fraunces';
+    font-weight: bold;
+}
+
+p {
+    line-height: 2;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background-color: #fef6f0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 40px 20px;
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    max-width: 800px;
+    width: 100%;
+}
+
+.product-card {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 40px;
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.product-image {
+    height: 100%;
+    object-fit: cover;
+}
+
+.price-now {
+    font-family: 'Fraunces';
+    color: hsl(158, 36%, 37%);
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.price-before {
+    font-family: 'Fraunces';
+    text-decoration: line-through;
+    color: gray;
+    font-size: 1rem;
+    margin-left: 15px;
+}
+
+.price-container {
+    display: flex;
+    align-items: center;
+}
+
+.buy-btn {
+    font-size: 1.1rem;
+    background-color: hsl(158, 36%, 37%) !important;
+    color: white !important;
+    transition: 0.3s;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.buy-btn:hover {
+    background-color: hsl(158, 36%, 25%) !important;
+    color: white !important;
+}
+
+.buy-btn i {
+    margin-right: 8px;
+}
+
+.attribution {
+    text-align: center;
+    font-size: 11px;
+    color: hsl(228, 12%, 48%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
