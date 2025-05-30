@@ -9,6 +9,7 @@ html {
 h2 {
     font-family: 'Fraunces';
     font-weight: bold;
+    width: 300px;
 }
 
 p {
@@ -73,8 +74,8 @@ body {
     background-color: hsl(158, 36%, 37%) !important;
     color: white !important;
     transition: 0.3s;
-    padding-top: 20px;
-    padding-bottom: 20px;
+    padding-top: 17px;
+    padding-bottom: 17px;
 }
 
 .buy-btn:hover {
